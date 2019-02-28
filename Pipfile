@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[dev-packages]
+
+[packages]
+sanic = "*"
+secure = "*"
+environs = "*"
+sanic-envconfig = "*"
+databases = {version = "*", extras = ["postgresql"]}
+
+[requires]
+python_version = "3.6"
