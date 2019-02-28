@@ -11,6 +11,7 @@ secure = "*"
 environs = "*"
 sanic-envconfig = "*"
 databases = {version = "*", extras = ["postgresql"]}
+project = {path = ".", editable = true}
 
 [requires]
 python_version = "3.6"
